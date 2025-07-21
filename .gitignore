@@ -1,1 +1,44 @@
-/target
+gigi
+# Archivos de compilación generados por Cargo
+/target/
+
+# Archivos de respaldo o temporales del editor
+**/*.rs.bk
+**/*.swp
+**/*~
+**/.DS_Store
+
+# Archivos del sistema operativo
+Thumbs.db
+ehthumbs.db
+Icon?
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Archivos de configuración del entorno local
+.env
+.env.*
+
+# Archivos de logs
+*.log
+
+# Archivos generados por herramientas
+/coverage/
+/Cargo.lock # (solo si es una librería, en binarios sí se suele incluir)
+
+# Configuración específica de IDE/editores
+# IntelliJ / CLion / RustRover
+.idea/
+
+# VSCode
+.vscode/
+
+# Archivos de pruebas
+*.profraw
+*.profdata
+
+# Archivos de caché
+/.cache/
